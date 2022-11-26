@@ -5,8 +5,8 @@ function maxIndex(arreglo){
     for(i=0;i<arreglo.length;i++){
         if(maximo<arreglo[i]){
             maximo=arreglo[i];
-            indiceMax=i+1;
-            //indiceMax=arreglo.indexOf(maximo)+1
+            indiceMax=i;
+            //indiceMax=arreglo.indexOf(maximo)
 
         }
     }
